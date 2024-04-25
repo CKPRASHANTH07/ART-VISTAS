@@ -64,9 +64,9 @@ const Last4 = () => {
     </div></div>
 
 
-    <div className='relative bg-transparent py-24'>
-  <div className='relative z-10 py-24'>
-    <h1 className='mb-6 backdrop-blur-md bg-white/50 w-fit md:text-4xl text-xl rounded-2xl'>Join Our Community of Visionary Artists</h1>
+    <div className='relative  py-24'>
+  <div className='relative z-10 py-24 bg-black/70'>
+    <h1 className='mb-10  md:text-4xl text-xl rounded-2xl text-white text-center'>Join Our Community of Visionary Artists</h1>
     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mx-4 md:mx-20">
       <figure className="flex flex-col items-center justify-center p-8 text-center bg-white/50 backdrop-blur-md  rounded-lg shadow-md">
         <blockquote className="max-w-md mx-auto mb-4 lg:mb-8">
@@ -94,7 +94,7 @@ const Last4 = () => {
       </figure>
     </div>
   </div>
-  <img src={join} alt='' className='absolute inset-0 w-full h-full object-cover z-0' />
+  <img src={join} alt='' className='absolute inset-0 w-full h-full object-cover z-0 ' />
 </div>
 
     </div>

@@ -1,6 +1,7 @@
 import React from 'react'
 import bgart from '../images/Designer.png'
 import artist from '../images/artist.png'
+import { Link } from 'react-router-dom'
 
 const First4 = () => {
   return (
@@ -11,8 +12,8 @@ const First4 = () => {
     <h1>Welcome to Art Vistas</h1>
     <p >Unlock a world of global art opportunities and connect with visionary artists from around the world. Explore, showcase, and collaborate on the international art stage.</p>
     <div className='space-x-4'>
-      <button className='primary-button'>Join</button>
-      <button className='secondary-button'>Learn More</button>
+      <Link to='/login' className='primary-button'>Join</Link>
+      <Link to='/register' className='secondary-button'>Learn More</Link>
     </div>
   </div>
 </div>
@@ -20,38 +21,32 @@ const First4 = () => {
 
 
 
-<div className='relative bg-slate-500 p-20'>
-  <div>
-    <h1 className='mb-20 text-white'>Discover Global Art Stage Openings</h1>
-    <div className="grid grid-cols-2 gap-6 px-32">
-      <div className="p-6 bg-gray-100 rounded-lg">
-        <h2 className="text-xl font-semibold mb-4">Explore</h2>
-        <p className="text-gray-700">
-          Dive into our curated database of international art exhibitions, residencies, and festivals, spanning a wide range of media and genres.
-        </p>
-      </div>
-      <div className="p-6 bg-gray-100 rounded-lg">
-        <h2 className="text-xl font-semibold mb-4">Apply</h2>
-        <p className="text-gray-700">
-          Easily submit your applications to the opportunities that align with your artistic vision and career goals. Our user-friendly platform streamlines the process.
-        </p>
-      </div>
-      <div className="p-6 bg-gray-100 rounded-lg">
-        <h2 className="text-xl font-semibold mb-4">Connect</h2>
-        <p className="text-gray-700">
-          Forge meaningful connections with art professionals and organizations around the world. Unlock valuable networking opportunities and unlock new collaborations.
-        </p>
-      </div>
+
+<div className='  bg-gradient-to-b from-stone-500 to-cyan-400 p-20 '>
+  <h1>Connect with Diverse Opportunities</h1>
+  <div className='flex lg:flex-row flex-col items-center p-20'>
+    <div className='w-[400px] m-4'>
+      <h2>International Stages</h2>
+      <p>Discover a curated selection of art exhibitions, residencies, and festivals happening across the globe. Expand your reach and find new audiences for your work.</p>
+    </div>
+    <div className='w-[400px] m-4'>
+      <h2>Collaborative Projects</h2>
+      <p>Connect with artists from around the world to co-create inspiring works. Leverage diverse perspectives and cultural backgrounds to push the boundaries of your creative practice.</p>
+    </div>
+    <div className='w-[400px] m-4'>
+      <h2>Funding Opportunities</h2>
+      <p>Explore a wealth of grants, scholarships, and awards tailored to support artists from underrepresented regions. Turn your dreams into reality with the financial resources to bring your visions to life.</p>
     </div>
   </div>
-</div>
+    </div>
+
 
 
 
    
 <div className='relative bg-transparent py-24'>
-  <div className='relative z-10 py-24'>
-    <h1 className='mb-6 backdrop-blur-md bg-white/50 w-fit  md:text-4xl text-xl rounded-2xl'>Empowering Artists from Extinction Countries</h1>
+  <div className='relative z-10 py-24 bg-black/70'>
+    <h1 className='mb-6 backdrop-blur-md text-center text-white   md:text-4xl text-xl rounded-2xl'>Empowering Artists from Extinction Countries</h1>
     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mx-4 md:mx-20">
       <figure className="flex flex-col items-center justify-center p-8 text-center bg-white/50 backdrop-blur-md  rounded-lg shadow-md">
         <blockquote className="max-w-md mx-auto mb-4 lg:mb-8">

@@ -12,15 +12,19 @@ h1 {
 h2 {
   color: blue;
   font-size: 30px;
+  font-family:sans-serif;
 }
 
 li {
   color: rgb(97, 97, 184);
   font-size: 30px;
+  font-family:sans-serif;
+  
 }
 p {
   color: rgb(0, 0, 0);
   font-size: 20px;
+  font-family:sans-serif;
 }
 
 .primary-button {
@@ -30,6 +34,7 @@ p {
   border-radius: 0.25rem;
   font-weight: bold;
   transition: background-color 0.3s ease;
+  font-family:sans-serif;
   
 }
 
@@ -40,6 +45,7 @@ p {
   border-radius: 0.25rem;
   font-weight: bold;
   transition: background-color 0.3s ease;
+  font-family:sans-serif;
 }
 
 .card {
@@ -49,11 +55,13 @@ p {
   background-color: #ffffff;
   border-radius: 0.5rem;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-family:sans-serif;
 }
 
 
 .container {
   background-color: #fcd34d;
   padding: 2rem;
+  font-family:sans-serif;
 }
 
