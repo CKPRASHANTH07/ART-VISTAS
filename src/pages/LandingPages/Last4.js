@@ -8,7 +8,7 @@ const Last4 = () => {
         <div>
         <div className='py-10 mx-auto sm:py-16 lg:py-24 relative bg-gradient-to-t from-cyan-500 to-yellow-200 '>
             <div className='bg-black/30 rounded-xl mx-0 xl:mx-20 '>
-  <h1 className='pl-8 pt-20'>Build Your Artistic Network Worldwide</h1>
+  <h1 className='pl-8 pt-20 text-4xl md:text-5xl text-center'>Build Your Artistic Network Worldwide</h1>
   <div className='flex lg:flex-row flex-col items-center space-y-8 p-20'>
     <div className='w-[400px] '>
       <h2>Global Reach</h2>
@@ -29,8 +29,8 @@ const Last4 = () => {
   </div></div>
     </div>
 
-    <div className='bg-gradient-to-t from-violet-300 to-cyan-500 p-20 '>
-      <h1>Showcase Your Work to New Audiences</h1>
+    <div className='bg-gradient-to-t from-violet-300 to-cyan-500 md:p-20 p-8 '>
+      <h1 className='text-4xl md:text-5xl text-center'>Showcase Your Work to New Audiences</h1>
       <div className='space-y-10 mt-10'>
       <li>Digital Portfolios</li>
 
@@ -46,7 +46,7 @@ const Last4 = () => {
 </div>
 
     <div className='  bg-gradient-to-b from-violet-300 to-white p-20 '>
-  <h1>Collaborate with Diverse Artistic Communities</h1>
+  <h1 className='text-4xl md:text-5xl text-center'>Collaborate with Diverse Artistic Communities</h1>
   <div className='flex md:flex-row flex-col items-center p-20'>
     <div className='w-[400px] m-4'>
       <h2>Connect</h2>
@@ -66,7 +66,7 @@ const Last4 = () => {
 
     <div className='relative  py-24'>
   <div className='relative z-10 py-24 bg-black/70'>
-    <h1 className='mb-10  md:text-4xl text-xl rounded-2xl text-white text-center'>Join Our Community of Visionary Artists</h1>
+    <h1 className='mb-10  text-4xl md:text-5xl text-white text-center'>Join Our Community of Visionary Artists</h1>
     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mx-4 md:mx-20">
       <figure className="flex flex-col items-center justify-center p-8 text-center bg-white/50 backdrop-blur-md  rounded-lg shadow-md">
         <blockquote className="max-w-md mx-auto mb-4 lg:mb-8">

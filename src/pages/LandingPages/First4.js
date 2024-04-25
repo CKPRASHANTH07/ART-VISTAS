@@ -6,13 +6,13 @@ import { Link } from 'react-router-dom'
 const First4 = () => {
   return (
     <div>
-    <div className='p-8 md:p-32 space-y-8 space-x-4 relative'>
+    <div className='p-2 h-[600px] md:p-32 space-y-8 space-x-4 relative'>
   <img src={bgart} alt='' className='absolute inset-0 w-full h-full object-cover z-0' />
   <div className='relative z-10 backdrop-blur-md space-y-10 bg-white/30 rounded-2xl p-10'>
-    <h1>Welcome to Art Vistas</h1>
-    <p >Unlock a world of global art opportunities and connect with visionary artists from around the world. Explore, showcase, and collaborate on the international art stage.</p>
-    <div className='space-x-4'>
-      <Link to='/login' className='primary-button'>Join</Link>
+    <h1 className='text-4xl md:text-5xl text-center'>Welcome to Art Vistas</h1>
+    <p className='text-center'>Unlock a world of global art opportunities and connect with visionary artists from around the world. Explore, showcase, and collaborate on the international art stage.</p>
+    <div className='space-x-4 text-center'>
+      <Link to='/login' className='primary-button'>Join Now</Link>
       <Link to='/register' className='secondary-button'>Learn More</Link>
     </div>
   </div>
@@ -22,8 +22,8 @@ const First4 = () => {
 
 
 
-<div className=' bg-[#BDB3A1] p-20 '>
-  <h1>Connect with Diverse Opportunities</h1>
+<div className=' bg-[#BDB3A1] md:p-20 p-8  '>
+  <h1 className='text-4xl md:text-5xl text-center'>Connect with Diverse Opportunities</h1>
   <div className='flex lg:flex-row flex-col items-center p-20'>
     <div className='w-[400px] m-4'>
       <h2>International Stages</h2>
@@ -46,7 +46,7 @@ const First4 = () => {
    
 <div className='relative bg-transparent py-24'>
   <div className='relative z-10 py-24 bg-black/70'>
-    <h1 className='mb-6 backdrop-blur-md text-center text-white   md:text-4xl text-xl rounded-2xl'>Empowering Artists from Extinction Countries</h1>
+    <h1 className='mb-6 backdrop-blur-md text-center text-white text-4xl md:text-5xl'>Empowering Artists from Extinction Countries</h1>
     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mx-4 md:mx-20">
       <figure className="flex flex-col items-center justify-center p-8 text-center bg-white/50 backdrop-blur-md  rounded-lg shadow-md">
         <blockquote className="max-w-md mx-auto mb-4 lg:mb-8">
@@ -84,7 +84,7 @@ const First4 = () => {
 
 <section className="py-10 sm:py-16 lg:py-24 relative  bg-gradient-to-b from-gray-400 on to-yellow-200 ">
   <div className=" mx-auto max-w-7xl sm:px-6 lg:px-8 z-10 bg-black/30 rounded-xl p-10">
-  <h1 className='pt-10'>Discover Global Art Stage Openings</h1>
+  <h1 className='pt-10 text-4xl md:text-5xl text-center'>Discover Global Art Stage Openings</h1>
     <div className="max-w-2xl mx-auto   text-center">
     </div>
 
