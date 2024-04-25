@@ -22,7 +22,7 @@ const First4 = () => {
 
 
 
-<div className='  bg-gradient-to-b from-stone-500 to-cyan-400 p-20 '>
+<div className=' bg-[#BDB3A1] p-20 '>
   <h1>Connect with Diverse Opportunities</h1>
   <div className='flex lg:flex-row flex-col items-center p-20'>
     <div className='w-[400px] m-4'>
